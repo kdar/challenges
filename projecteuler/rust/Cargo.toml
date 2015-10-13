@@ -1,0 +1,10 @@
+[package]
+name = "projecteuler"
+version = "0.1.0"
+authors = ["Kevin Darlington <kevin@outroot.com>"]
+
+[dependencies]
+num = "*"
+
+[dependencies.ramp]
+git = "https://github.com/Aatch/ramp"

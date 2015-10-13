@@ -1,0 +1,13 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["Kevin Darlington <kevin@outroot.com>"]
+# build = "build.rs"
+
+[dependencies]
+num = "*"
+ramp = "*"
+# libc = "0.1"
+
+# [build-dependencies]
+# gcc = "0.3"
