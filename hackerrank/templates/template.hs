@@ -5,3 +5,16 @@ main = do
     val2 <- readLn
     let sum = solveMeFirst val1 val2
     print sum
+
+-- import Control.Monad
+--
+--
+-- main = do
+--   t <- readLn
+--   replicateM_ t $ do
+--      s <- getLine
+--      putStrLn $ s
+
+-- reading in space delimited numbers:
+-- input <- getLine
+-- map read $ words input
