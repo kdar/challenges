@@ -17,4 +17,11 @@ main = do
 
 -- reading in space delimited numbers:
 -- input <- getLine
--- map read $ words input
+-- map (read :: String -> Int) $ words input
+
+
+-- readninput = do
+--   line <- getLine
+--   let nlines = read line :: Int
+--   sequence [getLine | _ <- [1..nlines]]
+-- lines <- readninput
